@@ -1,5 +1,8 @@
 {
-.appVersion = "1075";
+.appVersion = "1230";
+DisplayStrings = (
+"/hcaron/kcaron/edieresis-cy"
+);
 classes = (
 {
 automatic = 1;
@@ -7,7 +10,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2016 The Nunito Project Authors (contact@sansoxygen.com)";
+copyright = "Copyright 2016 The Nunito Project Authors (https://github.com/googlefonts/NunitoSans)";
 customParameters = (
 {
 name = license;
@@ -32263,7 +32266,7 @@ unicode = 1E2B;
 },
 {
 glyphname = hcaron;
-lastChange = "2017-11-29 16:02:12 +0000";
+lastChange = "2019-07-08 09:25:10 +0000";
 layers = (
 {
 components = (
@@ -32282,6 +32285,7 @@ width = 558;
 {
 components = (
 {
+alignment = -1;
 name = h;
 },
 {
@@ -34079,7 +34083,7 @@ width = 984;
 },
 {
 glyphname = kcaron;
-lastChange = "2017-11-29 16:02:14 +0000";
+lastChange = "2019-07-08 09:25:10 +0000";
 layers = (
 {
 components = (
@@ -34098,6 +34102,7 @@ width = 478;
 {
 components = (
 {
+alignment = -1;
 name = k;
 },
 {
@@ -58399,6 +58404,7 @@ background = {
 hints = (
 {
 place = "{247, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -58409,6 +58415,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{657, 48}";
+type = Stem;
 }
 );
 paths = (
@@ -67850,9 +67857,11 @@ transform = "{1, 0, 0, 1, 192, 0}";
 hints = (
 {
 place = "{63, 35}";
+type = Stem;
 },
 {
 place = "{405, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -67863,6 +67872,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{429, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -73007,9 +73017,11 @@ background = {
 hints = (
 {
 place = "{82, 54}";
+type = Stem;
 },
 {
 place = "{424, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -73020,6 +73032,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{448, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -73291,7 +73304,7 @@ unicode = 04EB;
 },
 {
 glyphname = "edieresis-cy";
-lastChange = "2017-12-11 15:52:48 +0000";
+lastChange = "2019-07-08 09:25:10 +0000";
 layers = (
 {
 components = (
@@ -73309,9 +73322,11 @@ width = 477;
 {
 components = (
 {
+alignment = -1;
 name = "ereversed-cy";
 },
 {
+alignment = -1;
 name = dieresiscomb;
 transform = "{1, 0, 0, 1, 92, -4}";
 }
@@ -124938,8 +124953,8 @@ value = "Transformations; LSB:+10; RSB:+10; include: a-cy, be-cy, ve-cy, ge-cy, 
 );
 interpolationWeight = 208;
 instanceInterpolations = {
-"9E718F8A-2CEA-4931-B05D-987794BD97DA" = -0.50980;
-"E1B555A7-F4E1-459C-9C1A-AE952106EEF9" = 1.50980;
+"9E718F8A-2CEA-4931-B05D-987794BD97DA" = -0.5098;
+"E1B555A7-F4E1-459C-9C1A-AE952106EEF9" = 1.5098;
 };
 isItalic = 1;
 linkStyle = Heavy;
